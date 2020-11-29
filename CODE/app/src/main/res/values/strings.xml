@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">সহজ হ্যান্ডনোট</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Logo_img">logo image</string>
+    <string name="PoweredBy">Powered By</string>
+    <string name="Gtech_img">Gtech image</string>
+    <string name="toolbar_img">Toolbar image</string>
+    <string name="No_data">No Data</string>
+    <string name="Notification_channel_id">EbookNotifications</string>
+    <string name="search">Search</string>
+    <string name="Notification_title">Title</string>
+    <string name="Notification_body">Body</string>
+    <string name="Notification_Image_desc">"App logo"</string>
+    <string name="Notification_AlertDialog">Notification</string>
+    <string name="Okbtn">OK</string>
+    <string name="demotext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu erat tincidunt lacus fermentum rutrum.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

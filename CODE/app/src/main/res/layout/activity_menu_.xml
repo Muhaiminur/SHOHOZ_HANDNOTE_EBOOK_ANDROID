@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appWhite"
+    android:orientation="vertical"
+    tools:context=".Menu_Activity">
+
+
+    <include layout="@layout/toolbar" />
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        tools:openDrawer="start">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/swipeRefreshID">
+            <ScrollView
+                android:id="@+id/scrollweb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fadeScrollbars="false"
+                android:scrollbarFadeDuration="0"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:id="@+id/flContainerFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/appWhite"
+                    android:orientation="vertical">
+
+                    <WebView
+                        android:id="@+id/webView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/appWhite" />
+
+                </LinearLayout>
+            </ScrollView>
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_play"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/ic_play_button"
+                    android:onClick="btn_play"
+                    style="?android:attr/borderlessButtonStyle"
+                     />
+
+                <Button
+                    android:id="@+id/btn_stop"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginEnd="125dp"
+                    android:background="@drawable/ic_stop_button"
+                    android:onClick="btn_stop"
+                    style="?android:attr/borderlessButtonStyle"
+                    />
+
+                <Button
+                    android:id="@+id/btn_up"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="bottom|end"
+                    android:background="@drawable/ic_uparrow"
+                    android:onClick="btn_up_click"
+                    style="?android:attr/borderlessButtonStyle"
+                     />
+
+                <Button
+                    android:id="@+id/btn_down"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/ic_downarrow"
+                    android:onClick="btn_down_click"
+                    style="?android:attr/borderlessButtonStyle"
+                     />
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flContainerNavigationMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@android:color/white"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</LinearLayout>
+
+
+

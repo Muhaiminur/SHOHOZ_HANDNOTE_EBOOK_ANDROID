@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00A6BC</color>
+    <color name="colorPrimaryDark">#00A6BC</color>
+    <color name="colorAccent">#262262</color>
+    <color name="appWhite">#ffffff</color>
+
+    <color name="ripple_color">#f2f2f2</color>
+
+    <color name="navigation_txt_color">#262262</color>
+
+</resources>

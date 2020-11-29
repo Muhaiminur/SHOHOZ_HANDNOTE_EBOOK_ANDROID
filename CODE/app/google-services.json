@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "265644634268",
+    "firebase_url": "https://easy-handnote.firebaseio.com",
+    "project_id": "easy-handnote",
+    "storage_bucket": "easy-handnote.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265644634268:android:6e249ba8543dab2a51fd59",
+        "android_client_info": {
+          "package_name": "com.gtech.shohozhandnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265644634268-5fh44h0rcnoidfgbc7v4an3fh4bee82k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfiSd0KSjEIomPFWEnlJ3EKocEam3mI0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265644634268-5fh44h0rcnoidfgbc7v4an3fh4bee82k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
